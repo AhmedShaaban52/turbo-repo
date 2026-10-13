@@ -24,6 +24,6 @@ export default async function Home() {
   });
   const text = await res.text(); // "Hello World!"
   return (
-    <p>Response from API: {text}</p>
+    <h1>Hello from Vercel! 🚀</h1>
   );
 }
